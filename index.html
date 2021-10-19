@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blatant Ponzi</title>
+
+    <link rel="stylesheet" href="css/landing.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <a href="app.html">
+            <div class='launch-button'>
+                <p>Launch App</p>
+                <!-- <a href="app.html">Launch App</a> -->
+            </div>
+        </a>
+    </div>
+
+    <div class="landing-body">   
+        <div id="landing-logo" class="logo">
+            <img src="assets/logo.JPG">
+        </div>     
+        <div id="landing-text">
+            <h1>Blatant Ponzi</h1>
+        </div>
+        
+    </div>
+
+    <div class="footer"></div>
+</body>
+
+<script>
+    $(".launch-button" ).hover(mouseEnter, mouseLeave);
+
+    function mouseEnter() {
+        $(this).css({
+            "font-weight": "bold"
+        });
+    };
+    
+    function mouseLeave() {
+        $(this).css({
+            "font-weight": "normal"
+        });
+    };
+</script>
+
+</html>

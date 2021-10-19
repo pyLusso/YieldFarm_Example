@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blatant Ponzi | App</title>
+
+    <link rel="stylesheet" href="css/app.css">
+
+    <script data-main="js/app" src="js/lib/require.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div id="defi-functions">
+            <div id="stake-h" class="defi-nav"> 
+                <h3>Stake</h3>
+            </div>
+            <div id="farm-h" class="defi-nav"> 
+                <h3>Farm</h3>
+            </div>
+            <div id="buy-h" class="defi-nav"> 
+                <h3>Buy Ponzi</h3>
+            </div>
+        </div>
+
+        <div id="metamask">
+            <p id="wallet_button" class="connect">Connect Wallet</p>
+        </div>
+    </div>
+
+    <div id="farm">
+        <div id="deathpool" class="pool">
+            <h2>Ponzi-ETH Pool</h2>
+            <div class="farm-UI">
+                <h4>Deposit</h4>
+                <div class="deposit">
+                    <input type="number" placeholder="Enter amount..">
+                    <div class="approve">
+                        <p>Approve Contract</p>
+                    </div>
+                </div>
+                <h4>Withdraw</h4>
+                <div class="withdraw">
+                    <input type="number" placeholder="Enter amount..">
+                    <div class="approve">
+                        <p>Approve Contract</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="ss-native" class="pool">
+            <h2>Stake Ponzi</h2>
+            <div class="farm-UI">
+                <h4>Deposit</h4>
+                <div class="deposit">
+                    <input type="number" placeholder="Enter amount..">
+                    <div class="approve">
+                        <p>Approve Contract</p>
+                    </div>
+                </div>
+                <h4>Withdraw</h4>
+                <div class="withdraw">
+                    <input type="number" placeholder="Enter amount..">
+                    <div class="approve">
+                        <p>Approve Contract</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="ss-eth" class="pool">
+            <h2>Stake ETH</h2>
+            <div class="farm-UI">
+                <h4>Deposit</h4>
+                <div class="deposit">
+                    <input type="number" placeholder="Enter amount..">
+                    <div class="approve">
+                        <p>Approve Contract</p>
+                    </div>
+                </div>
+                <h4>Withdraw</h4>
+                <div class="withdraw">
+                    <input type="number" placeholder="Enter amount..">
+                    <div class="approve">
+                        <p>Approve Contract</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div>
+            <p>Social Placeholder</p>
+        </div>
+
+        <div>
+            <p>Docs</p>
+        </div>
+    </div>
+</body>
+
+<script>
+    requirejs(["app/init_app"]);
+    requirejs(["app/connect_wallet"]);
+    requirejs(["app/connect_anim"]);
+    requirejs(["app/navbar"]);
+</script>
+
+</html>

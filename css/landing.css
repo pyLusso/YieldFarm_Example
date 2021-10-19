@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.header a, p {
+    font-family: Helvetica, Verdana, Arial;
+    color: black;
+    text-decoration: none;
+}
+
+.launch-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 93px;
+    padding: 12px;    
+    border-style: solid;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.landing-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%
+}
+
+#landing-logo {
+    padding-right: 2%;
+}
+
+#landing-text {
+    padding-left: 2%;
+}
+
+h1 {
+    font-family: Andale Mono, monospace;
+    font-size: 102px;
+}
